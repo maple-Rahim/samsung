@@ -1,0 +1,130 @@
+./option{
+
+    justify-content: space-between;
+    text-align: center;
+}
+.underline{
+    border-bottom-style: solid;
+    color: gray;
+}
+img {
+    width: 100%;
+    max-height: 100%;
+}
+/* heading nav */
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav_ber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+.nav_ber .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_ber ul .item a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.nav_ber ul .item:hover a {
+    color: aliceblue;
+}
+.nav_ber .nav_item ul {
+    display: flex;
+}
+.nav_ber .nav_item ul .item {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.nav_ber .nav_item ul .item:hover {
+    background: black;
+    border-radius: 2rem;
+}
+.nav_ber .nav_item ul .item:hover i{
+    color: aliceblue;
+}
+.nav_ber .nav_item ul .item i {
+    color: black;
+}
+.nav_ber .nav_item ul .fa_bars {
+    display: none;
+}
+
+/* heading */
+
+.sections {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.sections .saider {
+    position: relative;
+    height: 600px;
+    background-color: rgb(247, 247, 249);
+}
+.sections .saider .tex {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 1.5rem;
+    color: black;
+    font-family: sans-serif;
+}
+.img{
+    position: absolute;
+    top: 10%;
+    right: 30%;
+}
+.What-if{
+    position: absolute;
+    text-align: center;
+    top:80%;
+    right: 30%;
+
+}
+.grid{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: rgb(203, 207, 206);
+    padding: 5px;
+    text-align: center;
+    grid-template-columns:25% 25% 25% 20%;
+    border-radius: 2%;
+}
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 2%;
+}
+.item1{
+    grid-column: 1 / span 3;
+    grid-row:1 / span 5;
+}
+.item2{
+    grid-column: 4; 
+    grid-row:1/span 7;
+}
+.grid2{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: rgb(203, 207, 206);
+    padding: 5px;
+    text-align: center;
+    grid-template-columns:25% 25% 25% 20%;
+    border-radius: 2%;
+    height:150px ;
+    width:100%px;
+    display: flex;
+}
+
